@@ -110,3 +110,7 @@
 -dontwarn android.support.v4.**
 -dontwarn android.net.SSLCertificateSocketFactory
 -dontwarn android.net.http.*
+
+-dontwarn com.google.android.gms.**
+-keep class com.google.android.gms.** { *; }
+-keep class com.google.firebase.** { *; } 
